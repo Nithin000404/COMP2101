@@ -21,7 +21,7 @@ else
 fi
 #task 3
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~ task 3 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ "
-prompt1=" please try a password guess : "
+prompt1=" Try Password Guess : "
 read -p "$prompt1" password
 
 if [ $password != password123 ]
